@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.p-a {
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  background: rgba(27, 27, 27, 0.85);
+  height: 100%;
+}
+nav span {
+  display: none;
+}
+nav i {
+  margin: 15px 13px;
+  font-size: 30px;
+  color: #159cf3;
+  text-decoration: none;
+}
+nav i:hover {
+  cursor: pointer;
+  opacity: 0;
+}
+
+#ocultar {
+  /* opacity: 0; */
+}
+
+.bg-principal-style {
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo-dsw-content {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-dsw {
+  position: absolute;
+  top: 0;
+  height: 140px;
+  margin: 0;
+}
+
+.id-content {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0%;
+  width: 80%;
+  margin: 4% 0 0 10vw;
+}
+
+.id-content h1 {
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+.id-content p {
+  color: #159cf3;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.avatar-freelancer-content {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 6%;
+  width: 100%;
+  margin: 20% 0 0;
+}
+
+.avatar-freelancer {
+  height: 350px;
+}
